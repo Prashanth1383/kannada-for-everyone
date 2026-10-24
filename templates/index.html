@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFC72C">
+<link rel="icon" href="{{ url_for('static', filename='img/favicon.svg') }}">
+<title>Kannada for Everyone</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;700;800&family=Noto+Sans+Kannada:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top"><span class="kn">ಕನ್ನಡ · Kannada for Everyone</span><div class="stats" id="stats"></div></div>
+ <div class="hero">
+  <h1>Kannada<br>for Everyone</h1>
+  <p>An interactive platform that helps non-Kannada speakers learn practical Kannada through everyday conversations, situations, vocabulary and guided practice.</p>
+  <button class="demo" id="demo" aria-label="Hear the phrase of the day"><span class="play"></span><span><small>Phrase of the day · tap to hear</small><span class="k kn" id="pk"></span><small id="pr"></small></span></button>
+  <div class="pillars"><button data-go="talk"><b>Everyday conversations</b><small>Role-play real chats</small></button><button data-go="learn"><b>Situations</b><small>Auto, market, café, help</small></button><button data-go="words"><b>Vocabulary</b><small>Flashcards that repeat</small></button><button data-go="path"><b>Guided practice</b><small>Your daily plan</small></button></div>
+ </div>
+</div></header>
+<div class="wrap">
+ <nav role="tablist" id="tabs"></nav>
+ <main id="view"></main>
+ <footer>Kannada for Everyone · A free website to learn the Kannada you will actually use. Works in any browser, on phone or laptop.</footer>
+</div>
+<script src="{{ url_for('data_js') }}"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

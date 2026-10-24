@@ -1,0 +1,149 @@
+
+:root{--bg:#FFFFFF;--surface:#FFF8D6;--ink:#22190F;--mute:#6B5E4B;--yellow:#F7B500;--red:#B3261E;--line:#E9DDB0;--ok:#1F7A3E;--on-red:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17120B;--surface:#272014;--ink:#F6EEDC;--mute:#B8AA8E;--line:#3D3322;--ok:#6BD08C;--red:#E5594F}}
+:root[data-theme="dark"]{--bg:#17120B;--surface:#272014;--ink:#F6EEDC;--mute:#B8AA8E;--line:#3D3322;--ok:#6BD08C;--red:#E5594F}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 'Nunito',system-ui,sans-serif}
+.kn{font-family:'Noto Sans Kannada','Nunito',sans-serif}
+h1,h2,h3{font-family:'Baloo Tamma 2','Nunito',sans-serif;margin:0;line-height:1.1}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+header{background:var(--yellow);color:#22190F;border-bottom:6px solid var(--red)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;font-weight:700}
+.stats{display:flex;gap:8px;font-size:14px;flex-wrap:wrap}
+.stats span{background:#22190F;color:#FFE9A6;border-radius:99px;padding:3px 12px}
+.hero{padding:18px 0 30px}
+.hero h1{font-size:clamp(34px,7vw,60px);font-weight:800}
+.hero p{max-width:520px;margin:8px 0 18px;font-weight:600}
+.demo{display:flex;align-items:center;gap:14px;background:#fff;color:#22190F;border:3px solid #22190F;border-radius:18px;padding:14px 18px;box-shadow:6px 6px 0 var(--red);max-width:520px;text-align:left;width:100%}
+.demo .k{font-size:28px;font-weight:600}.demo small{display:block;color:#6B5E4B}
+.demo b{font-size:30px}
+nav{display:flex;gap:6px;overflow-x:auto;padding:12px 0;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+nav button{border:2px solid var(--line);background:none;border-radius:99px;padding:6px 16px;font-weight:700;white-space:nowrap}
+nav button[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{padding:20px 0 60px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{border:2px solid var(--line);background:var(--surface);border-radius:12px;padding:8px 14px;font-weight:700}
+.chip[aria-pressed=true]{border-color:var(--red);box-shadow:3px 3px 0 var(--red)}
+.card{background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.ph{display:grid;grid-template-columns:1fr auto;gap:8px 12px;align-items:center}
+.ph .k{font-size:24px;font-weight:600;line-height:1.35}
+.ph .r{font-weight:700;color:var(--red)}
+.ph .e{color:var(--mute);font-size:15px}
+.acts{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:2px solid var(--ink);background:var(--bg);border-radius:10px;padding:6px 12px;font-weight:700;font-size:14px}
+.btn.pri{background:var(--red);color:var(--on-red);border-color:var(--red)}
+.btn.on{background:var(--ok);color:#fff;border-color:var(--ok)}
+.msg{margin:10px 0 0;font-size:14px;color:var(--mute);grid-column:1/-1}
+.bar{height:10px;background:var(--line);border-radius:9px;overflow:hidden;margin:6px 0 16px}
+.bar i{display:block;height:100%;background:var(--red);transition:width .4s}
+.bub{max-width:85%;padding:10px 14px;border-radius:16px;margin:8px 0}
+.bub.d{background:var(--yellow);color:#22190F;border-bottom-left-radius:4px}
+.bub.u{background:var(--ink);color:var(--bg);margin-left:auto;border-bottom-right-radius:4px}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;border:2px solid var(--line);background:var(--bg);border-radius:12px;padding:10px 14px}
+.opt:hover{border-color:var(--red)}
+.tip h3{font-size:20px;margin-bottom:4px}
+.good{color:var(--ok);font-weight:700}.bad{color:var(--red);font-weight:700}
+.notice{background:var(--surface);border-left:6px solid var(--red);padding:8px 12px;border-radius:8px;font-size:14px;margin-bottom:14px}
+.badges{display:flex;gap:8px;flex-wrap:wrap}.badge{padding:6px 12px;border-radius:99px;border:2px dashed var(--line);color:var(--mute);font-weight:700;font-size:14px}.badge.got{border:2px solid var(--yellow);background:var(--yellow);color:#22190F}
+@media(max-width:520px){.ph{grid-template-columns:1fr}.acts{justify-content:flex-start}}
+header{background:linear-gradient(135deg,#FFD24D 0%,#F7B500 50%,#FF8A3D 100%);position:relative;overflow:hidden;border-bottom:0}
+header::after{content:"";display:block;height:12px;background:repeating-linear-gradient(90deg,var(--red) 0 26px,#22190F 26px 30px)}
+.hero{position:relative}
+.hero::before{content:"ಕನ್ನಡ";position:absolute;right:-8px;top:-34px;font:800 clamp(110px,26vw,250px)/1 'Noto Sans Kannada',sans-serif;color:rgba(255,255,255,.3);pointer-events:none}
+.hero h1{font-size:clamp(42px,9vw,78px);position:relative}
+.hero p{font-size:18px;position:relative;max-width:600px}
+.demo{position:relative}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px;position:relative}
+.pillars button{border:0;border-radius:18px;padding:14px;text-align:left;color:#fff;font-weight:800;display:flex;flex-direction:column;gap:2px;box-shadow:0 6px 0 rgba(0,0,0,.28);transition:transform .15s}
+.pillars button:hover{transform:translateY(-3px)}
+.pillars b{font-size:26px}.pillars small{font-weight:600;opacity:.92;font-size:13px;line-height:1.3}
+.pillars button:nth-child(1){background:#B3261E}.pillars button:nth-child(2){background:#0F766E}.pillars button:nth-child(3){background:#6D28D9}.pillars button:nth-child(4){background:#22190F}
+@media(max-width:640px){.pillars{grid-template-columns:1fr 1fr}}
+.card{border-radius:20px;box-shadow:0 4px 0 var(--line)}
+.btn{border-radius:99px}.chip{border-radius:99px}
+nav button[aria-selected=true]{background:var(--red);border-color:var(--red);color:#fff}
+h2{font-size:30px}
+.tip{border-left:8px solid var(--yellow)}
+.flash{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;min-height:220px;border:3px solid var(--ink);border-radius:26px;background:linear-gradient(160deg,var(--yellow),#FFE08A);color:#22190F;box-shadow:8px 8px 0 var(--red);margin:14px 0 22px;padding:20px;text-align:center}
+.flash .big{font:700 clamp(28px,6vw,44px)/1.2 'Baloo Tamma 2','Noto Sans Kannada',sans-serif}
+.flash .r{color:var(--red)}
+.acts.mid{justify-content:center}
+.step{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center}
+.step.done{opacity:.75}
+.num{width:42px;height:42px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font:800 20px 'Baloo Tamma 2',sans-serif}
+.step.done .num{background:var(--ok)}
+nav{gap:2px}
+nav button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:10px 14px}
+nav button[aria-selected=true]{background:none;color:var(--red);border-bottom-color:var(--red)}
+.btn{border-radius:8px;border:1.5px solid var(--line);background:var(--bg)}
+.btn.pri{background:var(--red);border-color:var(--red);color:#fff}
+.btn.on{background:var(--ok);border-color:var(--ok);color:#fff}
+.card{border:1px solid var(--line);box-shadow:0 1px 2px rgba(34,25,15,.06);border-radius:14px}
+.chip{border:1px solid var(--line);border-radius:8px}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink);box-shadow:none}
+.demo{border:0;border-radius:16px;box-shadow:0 12px 30px rgba(34,25,15,.2)}
+.demo .k{font-size:30px;display:block;line-height:1.3}
+.play{width:46px;height:46px;border-radius:50%;background:var(--red);position:relative;flex:none}
+.play::after{content:"";position:absolute;left:18px;top:14px;border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}
+.pillars button{color:#22190F;border-radius:12px;box-shadow:0 4px 14px rgba(34,25,15,.14);border-left:6px solid var(--red)}
+.pillars button:nth-child(1){background:#fff;border-left-color:#B3261E}
+.pillars button:nth-child(2){background:#fff;border-left-color:#0F766E}
+.pillars button:nth-child(3){background:#fff;border-left-color:#6D28D9}
+.pillars button:nth-child(4){background:#fff;border-left-color:#22190F}
+.pillars b{font-size:16px;font-weight:800}
+.pillars small{color:#6B5E4B;opacity:1}
+.flash{border:0;box-shadow:0 14px 34px rgba(34,25,15,.22)}
+.nk .ph .k{display:none}
+.how{border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:16px;background:var(--surface)}
+.how ol{margin:0 0 10px;padding-left:20px;font-weight:600}
+.how summary{cursor:pointer;font-weight:700;color:var(--red)}
+.gl{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px;margin:10px 0}
+.gl span{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 10px;font-size:14px}
+.tg{display:flex;gap:8px;align-items:center;font-weight:700;margin-top:8px}
+.sos{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--red);color:#fff;border:0;border-radius:99px;padding:12px 20px;font-weight:800;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.sosp{position:fixed;right:16px;bottom:calc(76px + env(safe-area-inset-bottom,0px));width:min(360px,calc(100% - 32px));max-height:60vh;overflow:auto;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 16px 40px rgba(0,0,0,.3);z-index:20}
+.sosp[hidden]{display:none}
+.sosp h3{font-size:17px}
+.sosp button{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:10px 12px;margin-top:8px}
+.sosp .kn{font-size:20px;font-weight:600;display:block}
+.sosp small{color:var(--mute)}
+header{background:#FFC72C}
+header::after{display:none}
+.hero{padding:20px 0 26px}
+.hero h1::after{content:"ಎಲ್ಲರಿಗೂ ಕನ್ನಡ";display:block;font:600 .38em/1.4 'Noto Sans Kannada',sans-serif;margin-top:10px}
+.redband{background:#D62828;color:#fff;padding:26px 0 36px}
+.redband p{color:#fff;font-size:18px;font-weight:600;max-width:600px;margin:0 0 18px}
+.redband .demo{margin:0}
+.art{display:block;width:calc(100% + 32px);height:auto;max-height:130px;margin:-14px -16px 12px;border-radius:14px 14px 0 0}
+.kgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;max-width:540px;margin-top:14px}
+.kt{border:2px solid transparent;border-radius:10px;min-height:58px;padding:4px;font:700 11px/1.15 'Nunito',sans-serif;color:#22190F;overflow-wrap:anywhere}
+.kt[aria-pressed=true]{border-color:#22190F;box-shadow:0 0 0 3px var(--red)}
+.kl{margin:8px 0 12px;padding-left:20px}.kl li{margin-bottom:4px}
+.klg{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:14px}
+.klg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.ans{font-weight:600;margin-bottom:10px}
+.tpg{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.tpc{margin:0}.tpc h3{font-size:20px;margin-bottom:2px}.tpc p{font-size:15px;margin:8px 0 12px}
+.place h3{font-size:24px}
+.pt{display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap}
+.tag{color:var(--mute);font-size:14px;font-weight:700}
+.place .ph{border-top:1px dashed var(--line);padding-top:12px;margin-top:6px}
+.ask{display:flex;gap:8px;margin:14px 0}
+.ask input{flex:1;min-width:0;font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.ai-r .k{font-size:22px;font-weight:600;line-height:1.4}
+.ai-r .r2{color:#8A1C14;font-weight:700}
+.ai-r .tp{display:block;margin-top:6px}
+footer{text-align:center;color:var(--mute);font-size:14px;padding:30px 18px 90px;border-top:1px solid var(--line)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Polish */
+.card,.chip,.btn,.pillars button{transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(34,25,15,.12)}
+.redband{background-image:radial-gradient(circle at 10% 125%,rgba(255,255,255,.14) 0 95px,transparent 96px),radial-gradient(circle at 92% -25%,rgba(255,255,255,.12) 0 125px,transparent 126px)}
+#view>*{animation:rise .35s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@media(prefers-reduced-motion:reduce){#view>*{animation:none}.card:hover{transform:none}}

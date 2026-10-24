@@ -1,0 +1,83 @@
+[
+ {
+  "d": [
+   "ಟೊಮೆಟೋ ತಗೊಳ್ಳಿ, ಒಳ್ಳೆ ಟೊಮೆಟೋ!",
+   "Tomato tagolli, olle tomato!",
+   "Take tomatoes, fresh tomatoes!"
+  ],
+  "o": [
+   [
+    "ಇದು ಎಷ್ಟು?",
+    "Idu eshtu?",
+    2,
+    "Ask the price first. Smart shopper."
+   ],
+   [
+    "ಅರ್ಧ ಕೆ.ಜಿ ಕೊಡಿ",
+    "Ardha kg kodi",
+    1,
+    "Clear, but you did not know the price yet."
+   ],
+   [
+    "ನೀರು ಕೊಡಿ",
+    "Neeru kodi",
+    0,
+    "That asks for water, not tomatoes."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಕೆ.ಜಿ ನಲವತ್ತು ರೂಪಾಯಿ.",
+   "Kg nalavattu roopaayi.",
+   "40 rupees a kilo."
+  ],
+  "o": [
+   [
+    "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ",
+    "Svalpa kadime maadi",
+    2,
+    "Polite way to ask for a better price."
+   ],
+   [
+    "ತುಂಬಾ ಜಾಸ್ತಿ",
+    "Tumba jaasti",
+    1,
+    "True, but add “kadime maadi” to ask for a reduction."
+   ],
+   [
+    "ಸರಿ, ಕೊಡಿ",
+    "Sari, kodi",
+    1,
+    "Fine, but a small reduction is normal in markets."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಮೂವತ್ತೈದು ಕೊಡಿ. ಎಷ್ಟು ಬೇಕು?",
+   "Moovattaidu kodi. Eshtu beku?",
+   "Give 35. How much do you want?"
+  ],
+  "o": [
+   [
+    "ಅರ್ಧ ಕೆ.ಜಿ ಕೊಡಿ",
+    "Ardha kg kodi",
+    2,
+    "Half a kilo, asked politely."
+   ],
+   [
+    "ಚಿಲ್ಲರೆ ಇದೆಯಾ?",
+    "Chillare ideya?",
+    1,
+    "Useful, but say how much you want first."
+   ],
+   [
+    "ಎಡಕ್ಕೆ ತಿರುಗಿ",
+    "Edakke tirugi",
+    0,
+    "That means “turn left”."
+   ]
+  ]
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "d": [
+   "ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕು?",
+   "Ellige hogabeku?",
+   "Where to?"
+  ],
+  "o": [
+   [
+    "ಇಂದಿರಾನಗರಕ್ಕೆ ಬರ್ತೀರಾ?",
+    "Indiranagarakke bartira?",
+    2,
+    "Polite and clear. Perfect opener."
+   ],
+   [
+    "ಇಂದಿರಾನಗರ!",
+    "Indiranagara!",
+    1,
+    "Understood, but add “bartira?” to ask politely."
+   ],
+   [
+    "ಧನ್ಯವಾದಗಳು",
+    "Dhanyavadagalu",
+    0,
+    "That means “thank you”. Too early!"
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಬರ್ತೀನಿ. ಇನ್ನೂರು ರೂಪಾಯಿ.",
+   "Bartini. Innooru roopaayi.",
+   "I will come. 200 rupees."
+  ],
+  "o": [
+   [
+    "ತುಂಬಾ ಜಾಸ್ತಿ! ಮೀಟರ್ ಹಾಕಿ",
+    "Tumba jaasti! Meter haaki",
+    2,
+    "Firm and polite. Asking for the meter is your right."
+   ],
+   [
+    "ಮೀಟರ್ ಹಾಕಿ",
+    "Meter haaki",
+    2,
+    "Short and effective."
+   ],
+   [
+    "ಸರಿ, ಕೊಡ್ತೀನಿ",
+    "Sari, kodtini",
+    0,
+    "You just agreed to the high fare."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಮೀಟರ್ ಹಾಕಿದ್ರೆ ಆಗಲ್ಲ. ನೂರೈವತ್ತು ಕೊಡಿ.",
+   "Meter haakidre aagalla. Nooraivattu kodi.",
+   "Meter won’t work. Give 150."
+  ],
+  "o": [
+   [
+    "ಇಲ್ಲ, ಮೀಟರ್ ಹಾಕಿ",
+    "Illa, meter haaki",
+    2,
+    "Standing your ground. Nice."
+   ],
+   [
+    "ನೂರು ರೂಪಾಯಿ ಕೊಡ್ತೀನಿ",
+    "Nooru roopaayi kodtini",
+    1,
+    "A counter-offer works, but the meter is usually cheaper."
+   ],
+   [
+    "ಸರಿ",
+    "Sari",
+    0,
+    "Agreeing ends the bargaining."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಸರಿ, ಹತ್ತಿ.",
+   "Sari, hatti.",
+   "Okay, get in."
+  ],
+  "o": [
+   [
+    "ಇಲ್ಲೇ ನಿಲ್ಲಿಸಿ",
+    "Elle nillisi",
+    2,
+    "Exactly how locals say “stop here”."
+   ],
+   [
+    "ನಿಲ್ಲಿಸಿ",
+    "Nillisi",
+    1,
+    "Works, but add “elle” for “right here”."
+   ],
+   [
+    "ಎಡಕ್ಕೆ",
+    "Edakke",
+    0,
+    "That means “to the left”, not “stop”."
+   ]
+  ]
+ }
+]

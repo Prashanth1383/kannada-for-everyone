@@ -1,0 +1,83 @@
+[
+ {
+  "d": [
+   "ಏನು ತೊಂದರೆ?",
+   "Enu tondare?",
+   "What is the problem?"
+  ],
+  "o": [
+   [
+    "ನನಗೆ ಜ್ವರ ಇದೆ",
+    "Nanage jwara ide",
+    2,
+    "Clear: “I have a fever”."
+   ],
+   [
+    "ನನಗೆ ತಲೆ ನೋವು",
+    "Nanage tale novu",
+    2,
+    "Clear: “I have a headache”."
+   ],
+   [
+    "ಧನ್ಯವಾದಗಳು",
+    "Dhanyavadagalu",
+    0,
+    "That means “thank you”. Say what hurts first."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಎಷ್ಟು ದಿನದಿಂದ?",
+   "Eshtu dinadinda?",
+   "Since how many days?"
+  ],
+  "o": [
+   [
+    "ಎರಡು ದಿನದಿಂದ",
+    "Eradu dinadinda",
+    2,
+    "Correct: “since two days”."
+   ],
+   [
+    "ಎರಡು ದಿನ",
+    "Eradu dina",
+    1,
+    "Understood, but “-dinda” means “since”."
+   ],
+   [
+    "ಬಿಲ್ ಕೊಡಿ",
+    "Bill kodi",
+    0,
+    "That asks for the bill. Too early!"
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಈ ಮಾತ್ರೆ ದಿನಕ್ಕೆ ಎರಡು ಸಲ ತಗೊಳ್ಳಿ.",
+   "Ee maatre dinakke eradu sala tagolli.",
+   "Take this tablet twice a day."
+  ],
+  "o": [
+   [
+    "ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ",
+    "Innomme heli",
+    2,
+    "Always ask again if you are unsure about medicine."
+   ],
+   [
+    "ಸರಿ, ಧನ್ಯವಾದಗಳು",
+    "Sari, dhanyavadagalu",
+    1,
+    "Polite, but ask them to repeat if unsure."
+   ],
+   [
+    "ಇಲ್ಲೇ ನಿಲ್ಲಿಸಿ",
+    "Elle nillisi",
+    0,
+    "That means “stop here”, for auto rides."
+   ]
+  ]
+ }
+]

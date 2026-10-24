@@ -1,0 +1,83 @@
+[
+ {
+  "d": [
+   "ಏನು ಬೇಕು?",
+   "Enu beku?",
+   "What would you like?"
+  ],
+  "o": [
+   [
+    "ಒಂದು ಮಸಾಲೆ ದೋಸೆ ಕೊಡಿ",
+    "Ondu masale dose kodi",
+    2,
+    "Clear and polite. “Kodi” is your magic word."
+   ],
+   [
+    "ದೋಸೆ",
+    "Dose",
+    1,
+    "Understood, but add “kodi” to be polite."
+   ],
+   [
+    "ಬಿಲ್ ಕೊಡಿ",
+    "Bill kodi",
+    0,
+    "That asks for the bill. You have not eaten yet!"
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಖಾರ ಇರಲಿ?",
+   "Khaara irali?",
+   "Should it be spicy?"
+  ],
+  "o": [
+   [
+    "ಖಾರ ಕಡಿಮೆ",
+    "Khaara kadime",
+    2,
+    "Perfect way to ask for less spice."
+   ],
+   [
+    "ಹೌದು, ತುಂಬಾ ಖಾರ",
+    "Haudu, tumba khaara",
+    1,
+    "Brave! You asked for very spicy."
+   ],
+   [
+    "ನಮಸ್ಕಾರ",
+    "Namaskara",
+    0,
+    "A greeting, not an answer. Try again next time."
+   ]
+  ]
+ },
+ {
+  "d": [
+   "ಬೇರೆ ಏನಾದ್ರೂ?",
+   "Bere enaadru?",
+   "Anything else?"
+  ],
+  "o": [
+   [
+    "ನೀರು ಕೊಡಿ",
+    "Neeru kodi",
+    2,
+    "Water arrives. Great request."
+   ],
+   [
+    "ಇಲ್ಲ, ಬಿಲ್ ಕೊಡಿ",
+    "Illa, bill kodi",
+    2,
+    "Polite and complete: “No, bill please”."
+   ],
+   [
+    "ಎಡಕ್ಕೆ",
+    "Edakke",
+    0,
+    "That means “to the left”."
+   ]
+  ]
+ }
+]

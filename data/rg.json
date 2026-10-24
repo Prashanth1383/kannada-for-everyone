@@ -1,0 +1,22 @@
+{
+ "north": [
+  "North and central",
+  "#FFD38A"
+ ],
+ "coast": [
+  "Coast",
+  "#9ADBD0"
+ ],
+ "malnad": [
+  "Malnad hills",
+  "#B7E2A8"
+ ],
+ "south": [
+  "South and east",
+  "#E3C4F0"
+ ],
+ "city": [
+  "Bengaluru",
+  "#F5A3A0"
+ ]
+}

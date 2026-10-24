@@ -1,0 +1,360 @@
+[
+ [
+  "Vijayapura",
+  "Vijayapura",
+  2,
+  0,
+  "north",
+  [
+   "Gol Gumbaz: giant dome with a whispering gallery",
+   "Ibrahim Rauza: graceful Adil Shahi tomb and mosque"
+  ]
+ ],
+ [
+  "Kalaburagi",
+  "Kalaburagi",
+  3,
+  0,
+  "north",
+  [
+   "Khwaja Bande Nawaz Dargah: major Sufi shrine",
+   "Kalaburagi Fort: Bahmani-era fort with a grand mosque"
+  ]
+ ],
+ [
+  "Bidar",
+  "Bidar",
+  4,
+  0,
+  "north",
+  [
+   "Bidar Fort: 15th-century Bahmani fort and palaces",
+   "Mahmud Gawan Madrasa: historic Persian-style college"
+  ]
+ ],
+ [
+  "Belagavi",
+  "Belagavi",
+  1,
+  1,
+  "north",
+  [
+   "Kittur Fort: Rani Chennamma rose against the British in 1824",
+   "Gokak Falls: horseshoe-shaped waterfall",
+   "Belagavi Fort: home of the Kamal Basadi Jain temple"
+  ]
+ ],
+ [
+  "Bagalkot",
+  "Bagalkot",
+  2,
+  1,
+  "north",
+  [
+   "Badami: rock-cut cave temples",
+   "Pattadakal and Aihole: early Chalukya temples"
+  ]
+ ],
+ [
+  "Yadgir",
+  "Yadgir",
+  3,
+  1,
+  "north",
+  [
+   "Yadgir Fort: hill fort above the town",
+   "Krishna river valley with old temples and forts"
+  ]
+ ],
+ [
+  "Raichur",
+  "Raichur",
+  4,
+  1,
+  "north",
+  [
+   "Raichur Fort: medieval fort with strong walls",
+   "Maski: site with an Ashoka rock edict"
+  ]
+ ],
+ [
+  "Uttara Kannada",
+  "Uttara Kannada",
+  0,
+  2,
+  "coast",
+  [
+   "Gokarna: temple town and quiet beaches",
+   "Murudeshwara: giant Shiva statue by the sea",
+   "Yana rocks and Dandeli: forest adventure"
+  ]
+ ],
+ [
+  "Dharwad",
+  "Dharwad",
+  1,
+  2,
+  "north",
+  [
+   "Dharwad pedha: famous milk sweet",
+   "Hubballi-Dharwad: home of a strong Hindustani music tradition",
+   "Unkal Lake in Hubballi"
+  ]
+ ],
+ [
+  "Gadag",
+  "Gadag",
+  2,
+  2,
+  "north",
+  [
+   "Lakkundi: Chalukya temples and carved stepwells",
+   "Trikuteshwara Temple in Gadag"
+  ]
+ ],
+ [
+  "Koppal",
+  "Koppal",
+  3,
+  2,
+  "north",
+  [
+   "Anegundi: ancient village across the river from Hampi",
+   "Anjanadri hill: popular climb with river views"
+  ]
+ ],
+ [
+  "Ballari",
+  "Ballari",
+  4,
+  2,
+  "north",
+  [
+   "Ballari Fort on a rocky hill",
+   "Sandur hills: iron-ore country and green forests"
+  ]
+ ],
+ [
+  "Haveri",
+  "Haveri",
+  1,
+  3,
+  "north",
+  [
+   "Byadgi: famous red chilli market",
+   "Bankapura Fort and Nagareshwara Temple"
+  ]
+ ],
+ [
+  "Davanagere",
+  "Davanagere",
+  2,
+  3,
+  "north",
+  [
+   "Davanagere benne dose: butter dosa",
+   "Harihareshwara Temple: Hoysala-era temple"
+  ]
+ ],
+ [
+  "Vijayanagara",
+  "Vijayanagara",
+  3,
+  3,
+  "north",
+  [
+   "Hampi: UNESCO World Heritage ruins",
+   "Tungabhadra Dam at Hosapete"
+  ]
+ ],
+ [
+  "Udupi",
+  "Udupi",
+  0,
+  4,
+  "coast",
+  [
+   "Sri Krishna Matha and Udupi food",
+   "Malpe and St Mary’s Island",
+   "Maravanthe beach"
+  ]
+ ],
+ [
+  "Shivamogga",
+  "Shivamogga",
+  1,
+  4,
+  "malnad",
+  [
+   "Jog Falls: one of India’s tallest waterfalls",
+   "Agumbe: rainforest sunsets",
+   "Sakrebailu elephant camp"
+  ]
+ ],
+ [
+  "Chitradurga",
+  "Chitradurga",
+  2,
+  4,
+  "north",
+  [
+   "Chitradurga Fort: huge stone fort on rocky hills",
+   "Chandravalli: ancient caves and archaeological site"
+  ]
+ ],
+ [
+  "Tumakuru",
+  "Tumakuru",
+  3,
+  4,
+  "south",
+  [
+   "Siddaganga Matha: renowned monastery and school",
+   "Madhugiri: huge monolith hill and fort"
+  ]
+ ],
+ [
+  "Chikkaballapur",
+  "Chikkaballapur",
+  4,
+  4,
+  "south",
+  [
+   "Nandi Hills: sunrise views and Tipu Sultan’s retreat",
+   "Skandagiri: night trek above the clouds",
+   "Muddenahalli: birthplace of Sir M. Visvesvaraya"
+  ]
+ ],
+ [
+  "Dakshina Kannada",
+  "D. Kannada",
+  0,
+  5,
+  "coast",
+  [
+   "Mangaluru: port city with famous seafood",
+   "Dharmasthala and Kukke Subramanya temples",
+   "Panambur beach"
+  ]
+ ],
+ [
+  "Chikkamagaluru",
+  "Chikkamagaluru",
+  1,
+  5,
+  "malnad",
+  [
+   "Mullayanagiri: Karnataka’s highest peak",
+   "Baba Budan Giri: where coffee growing is said to have begun",
+   "Sringeri and Kudremukh"
+  ]
+ ],
+ [
+  "Hassan",
+  "Hassan",
+  2,
+  5,
+  "malnad",
+  [
+   "Belur and Halebidu: Hoysala temples (UNESCO)",
+   "Shravanabelagola: Gommateshwara statue",
+   "Sakleshpur: coffee and misty hills"
+  ]
+ ],
+ [
+  "Bengaluru Rural",
+  "Bengaluru Rural",
+  3,
+  5,
+  "city",
+  [
+   "Devanahalli Fort: birthplace of Tipu Sultan",
+   "Doddaballapur: known for silk weaving"
+  ]
+ ],
+ [
+  "Kolar",
+  "Kolar",
+  4,
+  5,
+  "south",
+  [
+   "Kolar Gold Fields: historic gold mining town",
+   "Antaragange: caves and a natural spring",
+   "Known for mangoes and tomatoes"
+  ]
+ ],
+ [
+  "Kodagu",
+  "Kodagu",
+  1,
+  6,
+  "malnad",
+  [
+   "Talakaveri: source of the Kaveri river",
+   "Abbey Falls and coffee estates",
+   "Dubare elephant camp"
+  ]
+ ],
+ [
+  "Mandya",
+  "Mandya",
+  2,
+  6,
+  "south",
+  [
+   "Srirangapatna: Tipu Sultan’s island fort",
+   "KRS Dam and Brindavan Gardens",
+   "Melkote: hill temple town"
+  ]
+ ],
+ [
+  "Ramanagara",
+  "Ramanagara",
+  3,
+  6,
+  "south",
+  [
+   "Channapatna: colourful lacquered wooden toys",
+   "Ramadevara Betta: rocky hill with vultures",
+   "Ramanagara silk cocoon market"
+  ]
+ ],
+ [
+  "Bengaluru Urban",
+  "Bengaluru Urban",
+  4,
+  6,
+  "city",
+  [
+   "Lalbagh, Cubbon Park and Vidhana Soudha",
+   "Bengaluru Palace and Tipu Sultan’s Summer Palace",
+   "Bannerghatta National Park"
+  ]
+ ],
+ [
+  "Mysuru",
+  "Mysuru",
+  2,
+  7,
+  "south",
+  [
+   "Mysuru Palace and Dasara",
+   "Chamundi Hills",
+   "Somanathapura: star-shaped Hoysala temple",
+   "Bylakuppe: Tibetan settlement and Golden Temple"
+  ]
+ ],
+ [
+  "Chamarajanagar",
+  "Chamarajanagar",
+  3,
+  7,
+  "south",
+  [
+   "Bandipur Tiger Reserve",
+   "Biligiri Rangana Hills (BR Hills)",
+   "Shivanasamudra Falls"
+  ]
+ ]
+]

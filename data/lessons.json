@@ -1,0 +1,172 @@
+[
+ {
+  "id": "greet",
+  "icon": "👋",
+  "name": "Greetings",
+  "p": [
+   [
+    "ನಮಸ್ಕಾರ",
+    "Namaskara",
+    "Hello"
+   ],
+   [
+    "ಹೇಗಿದ್ದೀರಾ?",
+    "Hegiddira?",
+    "How are you?"
+   ],
+   [
+    "ಚೆನ್ನಾಗಿದ್ದೀನಿ",
+    "Chennagiddini",
+    "I am fine"
+   ],
+   [
+    "ನನ್ನ ಹೆಸರು ಆಶಾ",
+    "Nanna hesaru Asha",
+    "My name is Asha"
+   ],
+   [
+    "ಧನ್ಯವಾದಗಳು",
+    "Dhanyavadagalu",
+    "Thank you"
+   ],
+   [
+    "ಕ್ಷಮಿಸಿ",
+    "Kshamisi",
+    "Sorry / Excuse me"
+   ]
+  ]
+ },
+ {
+  "id": "auto",
+  "icon": "🛺",
+  "name": "Auto ride",
+  "p": [
+   [
+    "ಇಂದಿರಾನಗರಕ್ಕೆ ಬರ್ತೀರಾ?",
+    "Indiranagarakke bartira?",
+    "Will you come to Indiranagar?"
+   ],
+   [
+    "ಮೀಟರ್ ಹಾಕಿ",
+    "Meter haaki",
+    "Please put the meter"
+   ],
+   [
+    "ಎಷ್ಟು ಆಗುತ್ತೆ?",
+    "Eshtu aagutte?",
+    "How much will it be?"
+   ],
+   [
+    "ಬಲಕ್ಕೆ ತಿರುಗಿ",
+    "Balakke tirugi",
+    "Turn right"
+   ],
+   [
+    "ಎಡಕ್ಕೆ ತಿರುಗಿ",
+    "Edakke tirugi",
+    "Turn left"
+   ],
+   [
+    "ಇಲ್ಲೇ ನಿಲ್ಲಿಸಿ",
+    "Elle nillisi",
+    "Stop here"
+   ]
+  ]
+ },
+ {
+  "id": "market",
+  "icon": "🥬",
+  "name": "Market",
+  "p": [
+   [
+    "ಇದು ಎಷ್ಟು?",
+    "Idu eshtu?",
+    "How much is this?"
+   ],
+   [
+    "ತುಂಬಾ ಜಾಸ್ತಿ",
+    "Tumba jaasti",
+    "Too expensive"
+   ],
+   [
+    "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ",
+    "Svalpa kadime maadi",
+    "Reduce it a little"
+   ],
+   [
+    "ಅರ್ಧ ಕೆ.ಜಿ ಕೊಡಿ",
+    "Ardha kg kodi",
+    "Give me half a kilo"
+   ],
+   [
+    "ಚಿಲ್ಲರೆ ಇದೆಯಾ?",
+    "Chillare ideya?",
+    "Do you have change?"
+   ]
+  ]
+ },
+ {
+  "id": "food",
+  "icon": "🥞",
+  "name": "Restaurant",
+  "p": [
+   [
+    "ಒಂದು ಮಸಾಲೆ ದೋಸೆ ಕೊಡಿ",
+    "Ondu masale dose kodi",
+    "One masala dosa, please"
+   ],
+   [
+    "ನೀರು ಕೊಡಿ",
+    "Neeru kodi",
+    "Please give water"
+   ],
+   [
+    "ಖಾರ ಕಡಿಮೆ",
+    "Khaara kadime",
+    "Less spicy"
+   ],
+   [
+    "ತುಂಬಾ ರುಚಿಯಾಗಿದೆ",
+    "Tumba ruchiyagide",
+    "It is very tasty"
+   ],
+   [
+    "ಬಿಲ್ ಕೊಡಿ",
+    "Bill kodi",
+    "Bill, please"
+   ]
+  ]
+ },
+ {
+  "id": "help",
+  "icon": "🆘",
+  "name": "Help",
+  "p": [
+   [
+    "ಸಹಾಯ ಮಾಡಿ",
+    "Sahaya maadi",
+    "Please help me"
+   ],
+   [
+    "ನನಗೆ ಕನ್ನಡ ಸ್ವಲ್ಪ ಗೊತ್ತು",
+    "Nanage Kannada svalpa gottu",
+    "I know a little Kannada"
+   ],
+   [
+    "ನಿಧಾನವಾಗಿ ಹೇಳಿ",
+    "Nidhaanavaagi heli",
+    "Please speak slowly"
+   ],
+   [
+    "ನನಗೆ ಅರ್ಥ ಆಗಲಿಲ್ಲ",
+    "Nanage artha aagalilla",
+    "I did not understand"
+   ],
+   [
+    "ಡಾಕ್ಟರ್ ಎಲ್ಲಿ?",
+    "Doctor elli?",
+    "Where is the doctor?"
+   ]
+  ]
+ }
+]
